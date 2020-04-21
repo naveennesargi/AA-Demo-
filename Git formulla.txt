@@ -1,0 +1,19 @@
+Git Version Control formulla:
+
+moving to local repository:
+
+git init
+git status
+git add filename.extention 
+git commit -m "message to display"
+
+Configuration: 
+git config --global user.email "naveen.nesaragi@gmail.com"
+git config --global user.name "naveennesargi"
+
+Pushing file to github:
+*Before we have to add repository to our github account
+git remote add origin https://github.com/naveennesargi/AA-Demo-.git (cerated repository path link).
+
+Pushing to github remote repository:
+git push -u origin master
